@@ -63,9 +63,10 @@ class MainActivity : AppCompatActivity() {
 
             // editString reset
             sToggle = false
-            editText.visibility = android.view.View.VISIBLE
+            editText.visibility = android.view.View.GONE
             editText.setTextColor(getResources().getColor(R.color.white))
-            txtButton.text  = "Submit Text"
+            txtButton.text  = "Edit Text Label"
+            
         }
 
         txtButton.setOnClickListener {
